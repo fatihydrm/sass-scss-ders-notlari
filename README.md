@@ -164,7 +164,7 @@ div{
 
 <br/><br/>
 ## Döngüler (@For)
-> sass for döngüsü ile animasyon renk genişlik vs bir çok şeyi orantılı olarak düzenleyebilirsiniz Örnek resimi ekte bulabilirsiniz.
+> sass for döngüsü ile animasyon renk genişlik vs bir çok şeyi orantılı olarak düzenleyebilirsiniz Örnek resimi ekte bulabilirsiniz. [CodePen linki](https://codepen.io/fatihydrm/pen/GRQdBNx?editors=0100)
 
 ![](components/img/for-img-1.png)
 
