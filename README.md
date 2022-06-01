@@ -1,4 +1,4 @@
-# SASS/SCSS Ders notları.
+# SASS/SCSS Notları.
 
 | Sayı |             Konu              |
 | ---- | :---------------------------: |
@@ -10,7 +10,7 @@
 |  006 | [Operatörler](#operatörler)       |
 |  ____ |______________________________________ |
 
-<br/><br/><br/><br/>
+<br/><br/>
 ## Değişken
 > değişken tanımlama
 
@@ -163,5 +163,5 @@ div{
 }
 ```
 
-<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
 # [Daha Fazlası için sass dökümantasyonuna bakabilirsiniz](https://sass-lang.com/documentation/)
