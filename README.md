@@ -7,6 +7,7 @@
 |  003 | [Modüler](#modüler)       |
 |  004 | [Mixins (karışımlar)](#mixins-karışımlar)       |
 |  005 | [Devralma extend/inheritance](#devralma-extendinheritance)       |
+|  006 | [Operatörler](#operatörler)       |
 |  ____ |______________________________________ |
 
 ## Değişken
@@ -125,5 +126,38 @@ div{
 }
 .child-all{
   @extend .child-1;
+}
+```
+
+## Operatörler
+> Operatörler size çarpma toplama gibi özelikler kunlanmanızı sağlar. ( + , - , * , / , % ) [CodePen Örneği](https://codepen.io/fatihydrm/pen/KKQReOJ)
+
+```scss
+.container {
+  display: flex;
+  background-color:#eee;
+  height:100px;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.one {
+  width: 100 + 100+px;
+  background: red;
+  height: 100%;
+}
+
+.two{
+  width: 100 * 2+px;
+  background:green;
+}
+.three{
+  width: 400 - 200+px;
+  background:blue;
+}
+
+.four{
+  width: 400 / 2+px;
+  background:yellow;
 }
 ```
