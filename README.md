@@ -6,6 +6,7 @@
 |  002 | [İç içe yazma](#iç-içe-yazma)       |
 |  003 | [Modüler](#modüler)       |
 |  004 | [Mixins (karışımlar)](#mixins-karışımlar)       |
+|  005 | [Devralma extend/inheritance](#devralma-extendinheritance)       |
 |  ____ |______________________________________ |
 
 ## Değişken
@@ -93,5 +94,36 @@ div{
 }
 .basarili {
   @include tema($degisken: green);
+}
+```
+
+## Devralma extend/inheritance
+> Devralma extend/inheritance yapısı başka elemanların özeliğini istediğiniz elemana taşımanıza olanak sağlar ayrıca kendiniz bir değişken yapısı oluşturup başka bir elemana aktarabilirsiniz. [CodePen örneği](https://codepen.io/fatihydrm/pen/LYQmrrp)
+
+```scss
+%patern {
+  display:flex;
+  justify-content:center;
+  align-content:center;
+}
+.patern{
+  gap:10px;
+  padding:10px;
+  background:#eee;
+  @extend %patern;
+}
+
+.child-1{
+  height:100px;
+  width:100px;
+  background-color:#222;
+  border: 2px solid red;
+  padding: 10px;
+  color: #eee;
+  display:grid;
+  place-items:center;
+}
+.child-all{
+  @extend .child-1;
 }
 ```
