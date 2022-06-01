@@ -162,5 +162,11 @@ div{
 }
 ```
 
+<br/><br/>
+## Döngüler (For)
+> sass for döngüsü ile animasyon renk genişlik vs bir çok şeyi orantılı olarak düzenleyebilirsiniz
+
+
+
 <br/><br/><br/><br/>
 # [Daha Fazlası için sass dökümantasyonuna bakabilirsiniz](https://sass-lang.com/documentation/)
