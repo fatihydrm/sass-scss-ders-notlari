@@ -1,4 +1,4 @@
-# scss kunlanım notları
+# SASS/SCSS Ders notları.
 
 | Sayı |             Konu              |
 | ---- | :---------------------------: |
