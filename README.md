@@ -8,7 +8,6 @@
 |  004 | [Mixins (karışımlar)](#mixins-karışımlar)       |
 |  005 | [Devralma extend/inheritance](#devralma-extendinheritance)       |
 |  006 | [Operatörler](#operatörler)       |
-|  ____ |______________________________________ |
 
 <br/><br/>
 ## Değişken
