@@ -161,3 +161,10 @@ div{
   background:yellow;
 }
 ```
+
+
+
+
+
+
+# [Daha Fazlası için sass dökümantasyonuna bakabilirsiniz](https://sass-lang.com/documentation/)
