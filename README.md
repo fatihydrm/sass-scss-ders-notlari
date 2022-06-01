@@ -1,11 +1,12 @@
 # scss kunlanım notları
 
-| Day  |            Topics             |
+| Sayı |             Konu              |
 | ---- | :---------------------------: |
 |  001 | [Degisken](#değişken-1)       |
 |  002 | [Degisken](#değişken-2)       |
 |  003 | [Degisken](#değişken-3)       |
 |  004 | [Degisken](#değişken-4)       |
+|  ____ |______________________________________ |
 
 
 
