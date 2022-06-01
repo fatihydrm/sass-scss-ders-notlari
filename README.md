@@ -130,7 +130,7 @@ div{
 ```
 <br/><br/>
 ## Operatörler
-> Operatörler size çarpma toplama gibi özelikler kunlanmanızı sağlar. ( + , - , * , / , % ) [CodePen Örneği](https://codepen.io/fatihydrm/pen/KKQReOJ)
+> Operatörler size çarpma toplama gibi özelikleri kunlanmanızı sağlar. ( + , - , * , / , % ) [CodePen Örneği](https://codepen.io/fatihydrm/pen/KKQReOJ)
 
 ```scss
 .container {
