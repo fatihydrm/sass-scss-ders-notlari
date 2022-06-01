@@ -11,7 +11,7 @@
 
 <br/><br/>
 ## Değişken
-> değişken tanımlama
+> Değişken oluşturma ve tanımlama
 
 ```scss
 $text-color: #FFFFFF;
