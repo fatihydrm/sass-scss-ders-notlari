@@ -78,7 +78,7 @@ div{
 ```
 <br/><br/>
 ## Mixins (karışımlar)
-> sass içerisindeki Mixins yapısı sayesinde kod tekrarından kurtulun! js içerisindeki fonksiyonlara benzetebilirsiniz.
+> sass içerisindeki Mixins yapısı sayesinde kod tekrarından kurtulun! bunu fonksiyonlara benzetebilirsiniz.
 
 ```scss
 @mixin tema($degisken: #222) {
