@@ -7,7 +7,7 @@
 |  003 | [Modüler](#modüler)       |
 |  004 | [Mixins (karışımlar)](#mixins-karışımlar)       |
 |  005 | [Devralma extend/inheritance](#devralma-extendinheritance)       |
-|  006 | [Operatörler](#operatörler)       |
+|  006 | [Döngüler ( @For )](#döngüler-for)       |
 
 <br/><br/>
 ## Değişken
@@ -163,10 +163,25 @@ div{
 ```
 
 <br/><br/>
-## Döngüler (For)
-> sass for döngüsü ile animasyon renk genişlik vs bir çok şeyi orantılı olarak düzenleyebilirsiniz
+## Döngüler (@For)
+> sass for döngüsü ile animasyon renk genişlik vs bir çok şeyi orantılı olarak düzenleyebilirsiniz Örnek resimi ekte bulabilirsiniz.
 
+![](components/img/for-img-1.png)
 
+```scss
+@for $i from 1 through 10 {
+  .item-#{$i} {
+    position:absolute;
+    height:100px;
+    width: 20px;
+    background-color:blue;
+    bottom:20px;
+    border-radius:10px 10px 0 0;
+    transform-origin:bottom center;
+    transform:rotate($i * 36 + deg) translateY(-19px);
+  }
+}
+```
 
 <br/><br/><br/><br/>
 # [Daha Fazlası için sass dökümantasyonuna bakabilirsiniz](https://sass-lang.com/documentation/)
