@@ -10,6 +10,7 @@
 |  006 | [Operatörler](#operatörler)       |
 |  ____ |______________________________________ |
 
+<br/><br/><br/><br/>
 ## Değişken
 > değişken tanımlama
 
@@ -23,7 +24,7 @@ div{
 }
 
 ```
-
+<br/><br/>
 ## iç içe yazma
 > sass ile iç içe eleman yapısını kunlanabilirsiniz.
 
@@ -51,7 +52,7 @@ div{
 }
 
 ```
-
+<br/><br/>
 ## Modüler
 > sass  modül yapısı sayesinde başka sass dosyalarını ana sass dosyasına @use ile dahil edebilirsiniz bu sayede böl yarçala yaparak rahat kod yazabilirsiniz.
 
@@ -76,7 +77,7 @@ div{
   color: #fff;
 }
 ```
-
+<br/><br/>
 ## Mixins (karışımlar)
 > sass içerisindeki Mixins yapısı sayesinde kod tekrarından kurtulun! js içerisindeki fonksiyonlara benzetebilirsiniz.
 
@@ -97,7 +98,7 @@ div{
   @include tema($degisken: green);
 }
 ```
-
+<br/><br/>
 ## Devralma extend/inheritance
 > Devralma extend/inheritance yapısı başka elemanların özeliğini istediğiniz elemana taşımanıza olanak sağlar ayrıca kendiniz bir değişken yapısı oluşturup başka bir elemana aktarabilirsiniz. [CodePen örneği](https://codepen.io/fatihydrm/pen/LYQmrrp)
 
@@ -128,7 +129,7 @@ div{
   @extend .child-1;
 }
 ```
-
+<br/><br/>
 ## Operatörler
 > Operatörler size çarpma toplama gibi özelikler kunlanmanızı sağlar. ( + , - , * , / , % ) [CodePen Örneği](https://codepen.io/fatihydrm/pen/KKQReOJ)
 
@@ -162,9 +163,5 @@ div{
 }
 ```
 
-
-
-
-
-
+<br/><br/><br/><br/><br/><br/>
 # [Daha Fazlası için sass dökümantasyonuna bakabilirsiniz](https://sass-lang.com/documentation/)
